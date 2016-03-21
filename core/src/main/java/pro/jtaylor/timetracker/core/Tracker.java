@@ -13,7 +13,7 @@ public class Tracker {
 
     /**
      * Add Method
-     * @Param entry  time to be added
+     * @param entry  time to be added
      */
     public void add(TimeEntry entry) {
         entries.add(entry);
@@ -21,7 +21,7 @@ public class Tracker {
 
     /**
      * Remove Method
-     * @Param entry time to be removed
+     * @param entry time to be removed
      */
     public void remove(TimeEntry entry) {
         entries.remove(entry);
@@ -36,7 +36,7 @@ public class Tracker {
 
     /**
      * Get Method
-     * @Param index into collection
+     * @param index into collection
      */
     public TimeEntry get(int index) {
         return entries.get(index);
