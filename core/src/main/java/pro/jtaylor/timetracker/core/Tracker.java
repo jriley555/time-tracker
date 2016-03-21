@@ -13,7 +13,7 @@ public class Tracker {
 
     /**
      * Add Method
-     * @Param TimeEntry time to be added
+     * @Param entry  time to be added
      */
     public void add(TimeEntry entry) {
         entries.add(entry);
@@ -21,7 +21,7 @@ public class Tracker {
 
     /**
      * Remove Method
-     * @Param TimeEntry time to be removed
+     * @Param entry time to be removed
      */
     public void remove(TimeEntry entry) {
         entries.remove(entry);
@@ -29,7 +29,6 @@ public class Tracker {
 
     /**
      * Size Method
-     * @Param Size of collection
      */
     public int size() {
         return entries.size();
