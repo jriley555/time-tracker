@@ -1,4 +1,4 @@
-package pro.jtaylor.timetracker.core;
+ pro.jtaylor.timetracker.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
