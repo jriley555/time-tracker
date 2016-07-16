@@ -1,4 +1,4 @@
-package pro.jtaylor.timetracker.core.dao;
+ pro.jtaylor.timetracker.core.dao;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
